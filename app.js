@@ -1,7 +1,7 @@
 let UserScore = 0;
 let BotScore  = 0;
 
-// all element selectors
+// git push
 
 let SelOptions = document.querySelectorAll(".opt");
 let YourScore = document.querySelector("#your-score");
@@ -9,6 +9,7 @@ let ComScore = document.querySelector("#computer-score");
 let ResultMsg = document.querySelector(".result-card");
 let nameof = document.querySelector("#name");
 
+//functions
 
 SelOptions.forEach(choice => {
     choice.addEventListener("click", ()=>{
