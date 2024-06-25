@@ -1,6 +1,8 @@
 let UserScore = 0;
 let BotScore  = 0;
 
+// all element selectors
+
 let SelOptions = document.querySelectorAll(".opt");
 let YourScore = document.querySelector("#your-score");
 let ComScore = document.querySelector("#computer-score");
