@@ -36,12 +36,13 @@
     width: 250px;
     object-fit: cover;
     border-radius: 50%;
+    border: 5px solid black;
     transition: border 0.1s ease;
   }
 
 img:hover{
     
-    border: 4px solid black;
+    opacity: 0.9;
 }
   
 /* score */
